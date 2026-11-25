@@ -1,0 +1,62 @@
+{
+  "Apple": {
+    "Fresh": {
+      "min_days": 7,
+      "max_days": 14,
+      "storage_condition": "Cool pantry or refrigerator crisper drawer.",
+      "recommendation": "Optimal for raw consumption. Wash thoroughly before eating."
+    },
+    "Overripe": {
+      "min_days": 2,
+      "max_days": 4,
+      "storage_condition": "Refrigerate immediately.",
+      "recommendation": "Texture softening. Best utilized in baking, applesauce, or smoothies."
+    },
+    "Rotten": {
+      "min_days": 0,
+      "max_days": 0,
+      "storage_condition": "Do not store with healthy produce.",
+      "recommendation": "Spoiled. Discard immediately to prevent cross-contamination."
+    }
+  },
+  "Banana": {
+    "Fresh": {
+      "min_days": 4,
+      "max_days": 7,
+      "storage_condition": "Store at room temperature away from direct sunlight.",
+      "recommendation": "Ideal for direct consumption or fruit salads."
+    },
+    "Overripe": {
+      "min_days": 1,
+      "max_days": 2,
+      "storage_condition": "Room temperature or peel and freeze.",
+      "recommendation": "High sugar content. Ideal for banana bread, pancakes, or frozen desserts."
+    },
+    "Rotten": {
+      "min_days": 0,
+      "max_days": 0,
+      "storage_condition": "N/A",
+      "recommendation": "Unsafe for consumption. Discard immediately."
+    }
+  },
+  "Mango": {
+    "Fresh": {
+      "min_days": 5,
+      "max_days": 8,
+      "storage_condition": "Keep at room temperature until fully ripe, then refrigerate.",
+      "recommendation": "Firm and aromatic. Perfect for fresh slicing or salads."
+    },
+    "Overripe": {
+      "min_days": 1,
+      "max_days": 3,
+      "storage_condition": "Refrigerate.",
+      "recommendation": "Very soft. Best used for purees, mango lassi, or chutneys."
+    },
+    "Rotten": {
+      "min_days": 0,
+      "max_days": 0,
+      "storage_condition": "N/A",
+      "recommendation": "Signs of decay or mold. Discard immediately."
+    }
+  }
+}
